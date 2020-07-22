@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>알고리즘 문제 2</title>
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+  <h1><pass>부분에 배열 내장함수를 이용하여 코드를 입력하고 다음과 같이 출력되게 하세요.</h1>
+  <code>let arr = [200, 100, 300];</code>
+  <p>출력 [200, 100, 10000, 300]</p>
+  <script>
+    let arr = [200, 100, 300];
+    arr.splice(2, 0, 1000);
+    console.log(arr); // [200, 100, 1000, 300]
+  </script>
+</body>
+</html>
